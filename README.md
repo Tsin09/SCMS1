@@ -53,3 +53,4 @@
 1. 创建`scms`数据库（注意编码，使用utf-8）,运行SQL文件创建相关表和视图
 2. 向Tomcat中部署SCMC.war到webapps目录下，如果需要修改数据库密码 / 连接字符，串，打开WAR包找到文件：`WEB-INF/classes/jdbc.properties`修改即可
 3. 启动Tomcat，访问项目（`http://localhost(或者自己的服务器IP):8080/SCMS/`）
+
